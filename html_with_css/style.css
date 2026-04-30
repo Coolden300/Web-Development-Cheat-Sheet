@@ -1,0 +1,9 @@
+/* Welcome to CSS stylesheet! Here I'll show some basics. */
+
+/* Selectors - they apply to EVERY element that is related to that group. */
+p {
+    font-family:'Courier New', Courier, monospace;
+}
+h1 {
+    color: red;
+}

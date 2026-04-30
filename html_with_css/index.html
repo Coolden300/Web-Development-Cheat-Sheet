@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <!--
+    CSS can be either in-line, where you describe element characteristics right in the tag:
+
+    <p style="color: blue;">This is blue text</p>
+
+    internal, where you write CSS contents inside of your literal HTML (crazy):
+
+    <html>
+        <head>
+            <style>
+                p {
+                    color: blue;
+                }
+            </style>
+        </head>
+        <body>
+            <p>This is blue text</p>
+        </body>
+    </html>
+
+    or as a separate file with all style data, which you need to connect to HTML in order
+    for it to be used. This is the variant which will be used in this document
+    -->
+
+    <head>
+        <!-- 
+        This is where you usually put your link to CSS - in the header. It's best to do so since
+        1 - easy to locate, and 2 - it will load CSS before rest of the page. It's not strictly
+        required to put it in the header, but recommended.
+        -->
+        <link rel="stylesheet" href="style.css">
+        
+        <title>This is a title</title>
+    </head>     
+
+    <body>
+        <h1>This is a fancy header!</h1>
+        <p>This is a fancy paragraph.</p>
+    </body>
+</html>

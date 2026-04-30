@@ -1,0 +1,112 @@
+<!--This is a comment-->
+
+<!DOCTYPE html>
+<html>
+    <!--
+    This is the head of your website. Usually contains information about website, it's contains, subpages, etc.
+    -->
+    <head>
+        <title>This is a title</title>
+    </head>     
+
+    <!--
+    This is the body of your website. It contains the main information of your website.
+    -->
+    <body>
+        
+        <!--===================================== SIMPLE ELEMENTS =====================================-->
+        <!-- 
+        <div></div> is a container, like a box, used to store other things in it. It may look similar to
+        <p></p>, but paragraph is an own structure used in first hand for text elements, and should not
+        be in role of a container.
+        -->
+        <div>
+            <!-- 
+            A simple paragraph to store text. I'm pretty sure it can store other paragraphs inside of it
+            or headers.
+            -->
+            <p>This is a paragraph.</p>
+
+            <p> <!-- Some bold and italic (or, well, cursive) text -->
+                <b>bold</b> and <em>cursive</em> text
+            </p>
+
+            <!-- Different sizes of headers -->
+            <h1>Header 1</h1>
+            <h2>Header 2</h2>
+            <h3>Header 3</h3>
+            <h4>Header 4</h4>
+            <h5>Header 5</h5>
+            <h6>Header 6</h6>
+
+            <!-- And 2 types of lists -->
+            <p>This is an unordered list</p>
+            <ul>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ul>
+
+            <p>This is an unordered list</p>
+            <ol>
+                <li>Element 1</li>
+                <li>Element 2</li>
+                <li>Element 3</li>
+            </ol>
+        </div>
+
+
+        <!--========================================= IMAGES =========================================-->
+        <!--
+        Images are... Images. Fine pictures that user can see.
+        'src' = source path for the image
+        'alt' = text that would be display on a browser that is unable to load images
+        'style' = additional styling information for the image, eg. size, scale... 
+        (Note: you can set only one side of size and other side will be scaled proportionally)
+        -->
+        <img src="example.jpg" alt="Iconic Windows 7 desktop background image." style="width:500px;height:300px;">
+        
+        <!--This is a break. Splits text in paragraphs without using the paragraphs. Can be used inside of text for example.-->
+        <br>
+
+        <!--You can display images by using links to them as well. Here's example of using a piscum for random image.-->
+        <img src="https://picsum.photos/536/354" alt="A random image from piscum website" style="width:500px;">
+        
+        
+        <!--========================================= LINKS =========================================-->
+        <p>
+            <!--
+            Links are clickable things that usually refer to external sources, or can refer to some moment inside of
+            current web page. Depenlds on how you make it.
+            -->
+
+            <!--
+            This is a simple link example.
+            'href' = main attribute. Stands for "Hypertext Reference". It points out to a destination. Can be a file or usually
+            a link.
+            -->
+            <a href="https://example.com">Link to example.com</a>
+            <br>
+            <!--
+            Besides from 'hred' it can have a ton of other attributes. I won't explain much about each but you can hover over
+            those tags to see extra information.
+            -->
+            <a href="https://example.com" target="_blank" title="Wow!" rel="noopener" download="">Another link to example.com</a>
+            <br>
+            <!--
+            Links can lead not only to domains but also relative files and contacts!
+            -->
+            <a href="mailto:example@example.com">Email link example</a>
+            <br>
+            <a href="tel:+123456789">Phone number link example</a>
+            <br>
+            <a href="/example.jpg">Relative file link example</a>
+            <br>
+        </p>
+
+    </body>
+
+    <footer>
+        <p>This is a paragraph inside of the footer</p>
+    </footer>
+</html>
